@@ -4,7 +4,7 @@
 
 플랫폼 (Platform) <br>
 ├─ 회전 플랫폼 (RotatingPlatform) <br>
-│     ├─ 회전 플랫폼 1 - Tick, DeltaTime 이용 구현
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 회전 플랫폼 1 - Tick, DeltaTime 이용 구현
 │     └─ 회전 플랫폼 2 - Timer 이용 구현
 │
 └─ 이동 플랫폼 (MovingPlatform)
