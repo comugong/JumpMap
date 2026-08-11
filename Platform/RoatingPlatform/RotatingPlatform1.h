@@ -2,14 +2,14 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "RotatingPlatform_1.generated.h"
+#include "RotatingPlatform1.generated.h"
 
 UCLASS()
-class CHAPTER3_API ARotatingPlatform_1 : public AActor {
+class CHAPTER3_API ARotatingPlatform1 : public AActor {
 	GENERATED_BODY()
 	
 public:	
-	ARotatingPlatform_1();
+	ARotatingPlatform1();
 
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Item|Components")
