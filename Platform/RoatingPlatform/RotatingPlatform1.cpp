@@ -1,6 +1,6 @@
-#include "RotatingPlatform_1.h"
+#include "RotatingPlatform1.h"
 
-ARotatingPlatform_1::ARotatingPlatform_1() {
+ARotatingPlatform1::ARotatingPlatform1() {
 	SceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("SceneRoot"));
 	SetRootComponent(SceneRoot);
 
@@ -11,11 +11,11 @@ ARotatingPlatform_1::ARotatingPlatform_1() {
 	RotationSpeed = 90.0f;
 }
 
-void ARotatingPlatform_1::BeginPlay() {
+void ARotatingPlatform1::BeginPlay() {
 	Super::BeginPlay();
 }
 
-void ARotatingPlatform_1::Tick(float DeltaTime) {
+void ARotatingPlatform1::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
 
 	if (!FMath::IsNearlyZero(RotationSpeed)) {
