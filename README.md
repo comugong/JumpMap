@@ -3,7 +3,7 @@
 언리얼 C++로 점프맵 만들기 <br><br>
 
 플랫폼 (Platform) <br>
-├─ 회전 플랫폼 (RotatingPlatform)
+├─ 회전 플랫폼 (RotatingPlatform) <br>
 │     ├─ 회전 플랫폼 1 - Tick, DeltaTime 이용 구현
 │     └─ 회전 플랫폼 2 - Timer 이용 구현
 │
