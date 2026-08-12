@@ -5,19 +5,20 @@
 #include "RotatingPlatform1.generated.h"
 
 UCLASS()
-class CHAPTER3_API ARotatingPlatform1 : public AActor {
+class JUMPMAP_API ARotatingPlatform1 : public AActor {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	ARotatingPlatform1();
 
 protected:
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Item|Components")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Platform|Components")
 	USceneComponent* SceneRoot;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item|Components")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Components")
 	UStaticMeshComponent* StaticMeshComp;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item|Properties")
+	// 회전 속도
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Platform|Properties")
 	float RotationSpeed;
 
 	virtual void BeginPlay() override;
