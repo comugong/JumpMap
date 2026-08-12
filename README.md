@@ -10,4 +10,5 @@
 ├─ 이동 플랫폼 (MovingPlatform) <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 이동 플랫폼 1 - Tick, DeltaTime (최대 이동 거리 MaxRange, GetActorLocation().Y) <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ 이동 플랫폼 2 - Tick, DeltaTime, Timer, 벡터 배열 (정사각형 모양으로 이동) <br>
+│ <br>
 └─ 플랫폼 랜덤 생성기 (PlatformSpawner) <br>
