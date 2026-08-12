@@ -12,9 +12,9 @@ public:
 	AMovingPlatform2();
 
 protected:
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Item|Components")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Platform|Components")
 	USceneComponent* SceneRoot;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item|Components")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Components")
 	UStaticMeshComponent* StaticMeshComp;
 
 	// 이동 속도
