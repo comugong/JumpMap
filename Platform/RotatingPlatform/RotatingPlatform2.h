@@ -1,24 +1,32 @@
-#include "RotatingPlatform1.h"
+#pragma once
 
-ARotatingPlatform1::ARotatingPlatform1() {
-	SceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("SceneRoot"));
-	SetRootComponent(SceneRoot);
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "RotatingPlatform2.generated.h"
 
-	StaticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
-	StaticMeshComp->SetupAttachment(SceneRoot);
+UCLASS()
+class JUMPMAP_API ARotatingPlatform2 : public AActor {
+	GENERATED_BODY()
+	
+public:	
+	ARotatingPlatform2();
 
-	PrimaryActorTick.bCanEverTick = true;
-	RotationSpeed = 90.0f;
-}
+protected:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Platform|Components")
+	USceneComponent* SceneRoot;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Components")
+	UStaticMeshComponent* StaticMeshComp;
 
-void ARotatingPlatform1::BeginPlay() {
-	Super::BeginPlay();
-}
+	// 회전 속도
+	float RotationSpeed;
 
-void ARotatingPlatform1::Tick(float DeltaTime) {
-	Super::Tick(DeltaTime);
+	// 타이머
+	FTimerHandle TimerHandle;
 
-	if (!FMath::IsNearlyZero(RotationSpeed)) {
-		AddActorLocalRotation(FRotator(0.0f, RotationSpeed * DeltaTime, 0.0f));
-	}
-}
+	// 플랫폼 토글 여부
+	bool IsHidden = false;
+
+	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaTime) override;
+	void ToggleAppearPlatform();
+};
