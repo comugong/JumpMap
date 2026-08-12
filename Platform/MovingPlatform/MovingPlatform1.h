@@ -12,17 +12,17 @@ public:
 	AMovingPlatform1();
 
 protected:
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Item|Components")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Platform|Components")
 	USceneComponent* SceneRoot;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item|Components")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform|Components")
 	UStaticMeshComponent* StaticMeshComp;
 
 	// 이동 속도
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item|Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Platform|Properties")
 	float MoveSpeed;
 
 	// 최대 이동 거리
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item|Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Platform|Properties")
 	float MaxRange;
 
 	// 출발점
