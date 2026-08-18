@@ -12,3 +12,7 @@
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ 이동 플랫폼 2 - Tick, DeltaTime, Timer, 벡터 배열 (정사각형 모양으로 이동) <br>
 │ <br>
 └─ 플랫폼 랜덤 생성기 (PlatformSpawner) <br>
+<br>
+3D 캐릭터 <br>
+└─ 탈 것 (Pawn Class) < br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ 6DOF 비행기 - 
