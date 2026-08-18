@@ -14,5 +14,5 @@
 └─ 플랫폼 랜덤 생성기 (PlatformSpawner) <br>
 <br>
 3D 캐릭터 <br>
-└─ 탈 것 (Pawn Class) < br>
+└─ 탈 것 (Pawn Class) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ 6DOF 비행기 - 
