@@ -42,7 +42,7 @@
 인터페이스 <br>
 ├─ Start/Restart 버튼 <br>
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ Start 버튼 - 게임을 처음 시작할 때 표시됨 <br>
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ Restart 버튼 - 게임을 다시 시작할 때 표시됨 <br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ Restart 버튼 - 게임을 다시 시작할 때 표시됨 <br>
 ├─ End 버튼 <br>
 └─ 인게임 인터페이스 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ Score - 코인을 획득해서 얻은 점수의 총점을 표시 <br>
