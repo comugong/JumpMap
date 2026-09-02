@@ -1,8 +1,10 @@
 #include "NewGameMode.h"
-#include "NewPawn.h"
-#include "NewPawnController.h"
+#include "NewCharacter.h"
+#include "NewPlayerController.h"
+#include "NewGameState.h"
 
 ANewGameMode::ANewGameMode() {
-	DefaultPawnClass = ANewPawn::StaticClass();
-	PlayerControllerClass = ANewPawnController::StaticClass();
+	DefaultPawnClass = ANewCharacter::StaticClass();
+	PlayerControllerClass = ANewPlayerController::StaticClass();
+	GameStateClass = ANewGameState::StaticClass();
 }
