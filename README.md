@@ -24,7 +24,7 @@
 └─ 디버프 아이템 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 슬로우 (일정 시간 느려짐) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 입력 반전 (W와 S, A와 D의 이동이 일정 시간 반전됨) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 블라인드 (일정 시간 시야가 어두워짐) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ 블라인드 (일정 시간 시야가 어두워짐) <br>
 <br>
 게임 규칙 <br>
 1. 총 3개의 레벨이 존재함 <br>
@@ -48,4 +48,4 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ Score - 코인을 획득해서 얻은 점수의 총점을 표시 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ Level - 현재 레벨과 웨이브를 표시 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ Debuff - 적용 중인 상태 이상을 표시 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ Time - 현재 웨이브의 남은 시간을 표시 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ Time - 현재 웨이브의 남은 시간을 표시 <br>
